@@ -11,7 +11,7 @@ import SwiftUI
 struct BusinessCardBack: View {
     var body: some View {
         VStack{
-            Text("Back Of The Back")
+            Text("Back Of The Back").rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
                 .foregroundColor(.white)
             
         }.frame(width: 300, height: 200)
