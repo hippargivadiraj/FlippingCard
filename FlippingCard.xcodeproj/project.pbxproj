@@ -13,6 +13,8 @@
 		BC04203B24C3E87B0050AD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC04203A24C3E87B0050AD24 /* Assets.xcassets */; };
 		BC04203E24C3E87B0050AD24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC04203D24C3E87B0050AD24 /* Preview Assets.xcassets */; };
 		BC04204124C3E87B0050AD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC04203F24C3E87B0050AD24 /* LaunchScreen.storyboard */; };
+		BC04204924C3E8A00050AD24 /* BusinessCardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC04204824C3E8A00050AD24 /* BusinessCardFront.swift */; };
+		BC04204B24C4046C0050AD24 /* BusinessCardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC04204A24C4046C0050AD24 /* BusinessCardBack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BC04203D24C3E87B0050AD24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC04204024C3E87B0050AD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC04204224C3E87B0050AD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC04204824C3E8A00050AD24 /* BusinessCardFront.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardFront.swift; sourceTree = "<group>"; };
+		BC04204A24C4046C0050AD24 /* BusinessCardBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardBack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		BC04202824C3E87A0050AD24 = {
 			isa = PBXGroup;
 			children = (
+				BC04204824C3E8A00050AD24 /* BusinessCardFront.swift */,
+				BC04204A24C4046C0050AD24 /* BusinessCardBack.swift */,
 				BC04203324C3E87A0050AD24 /* FlippingCard */,
 				BC04203224C3E87A0050AD24 /* Products */,
 			);
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC04203524C3E87A0050AD24 /* AppDelegate.swift in Sources */,
+				BC04204924C3E8A00050AD24 /* BusinessCardFront.swift in Sources */,
 				BC04203724C3E87A0050AD24 /* SceneDelegate.swift in Sources */,
 				BC04203924C3E87A0050AD24 /* ContentView.swift in Sources */,
+				BC04204B24C4046C0050AD24 /* BusinessCardBack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
